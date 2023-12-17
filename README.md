@@ -1,4 +1,3 @@
-![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/f971a835-bc39-44b5-94b4-24209fabd3dd)<a name="br1"></a> 
 
 BLACKJACK GAME
 Rianco Marcellino Andreas
@@ -65,5 +64,6 @@ menang. Dan jika ¡ 21 maka COM terus melakukan pengambilan kartu sampai ¿
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/a86da1c9-cf9e-4bf8-8b58-078e6c5de582)
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/6bb628b2-79a8-414c-8179-ccf6eb781170)
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/51348ba2-2c96-462f-ba20-5a0d65c083d1)
-![Uploading image.png…]()
+![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/f971a835-bc39-44b5-94b4-24209fabd3dd)<a name="br1"></a> 
+
 
