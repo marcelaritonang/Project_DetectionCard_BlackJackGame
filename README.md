@@ -16,6 +16,9 @@ Mengambil gambar-gambar kartu sebagai data latihan untuk proses pengenalan nilai
 
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/59b605a6-5a0e-4fba-b09e-57a0b68db7b7)
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/b920d964-4ffd-409e-bfcf-f1b6870b585b)
+
+
+
 4. Loop Utama (Main Loop)
 Program berjalan dalam loop utama untuk terus-menerus mengambil frame dari aliran video.
 5. Temukan dan Urutkan Kontur Kartu
