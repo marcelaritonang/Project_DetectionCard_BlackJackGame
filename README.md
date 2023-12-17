@@ -18,4 +18,67 @@ Permainan dimulai dengan pemain membagikan dua kartu kepada player. Player kemud
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/51348ba2-2c96-462f-ba20-5a0d65c083d1)
 ![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/f971a835-bc39-44b5-94b4-24209fabd3dd)<a name="br1"></a> 
 
+Deteksi Kartu
+Pada permainan blackjack ini, deteksi kartu dilakukan menggunakan teknologi Pengolahan Citra Video. Berikut adalah penjelasan mengenai proses deteksi kartu dalam permainan:
+
+Inisialisasi dan Pengaturan Awal:
+
+Pada awalnya, program melakukan inisialisasi beberapa parameter, termasuk frame rate dan pengaturan kamera.
+Membuka kamera video dan memastikan bahwa kamera telah berhasil diakses.
+Muat Gambar Latihan Nilai dan Jenis Kartu:
+
+Memuat gambar-gambar kartu sebagai data latihan untuk mengenali nilai dan jenis kartu.
+Loop Utama (Main Loop):
+
+Program berjalan dalam loop utama yang terus-menerus mengambil frame dari aliran video.
+Pra-pemrosesan gambar dilakukan untuk mengubahnya ke skala abu-abu, mengaburkan, dan menerapkan ambang adaptif.
+Temukan dan Urutkan Kontur Kartu:
+
+Menggunakan metode tertentu, program menemukan dan mengurutkan kontur dari kartu yang ada di frame.
+Kontur yang diidentifikasi diurutkan dan disaring untuk memastikan bahwa hanya kontur kartu yang diakui.
+Identifikasi Area Kartu Pemain, Area Hit, dan Area Kartu Komputer:
+
+Berdasarkan status permainan (state), program menandai area untuk kartu pemain, area hit, dan area kartu komputer pada frame.
+Menampilkan kotak dan teks yang menunjukkan area tersebut.
+Loop Deteksi Kartu:
+
+Program memulai loop untuk setiap kontur yang terdeteksi.
+Memeriksa apakah kontur tersebut adalah kartu berdasarkan kriteria tertentu.
+Pemilihan Kartu Pemain atau Kartu Komputer:
+
+Program menentukan apakah kartu yang terdeteksi adalah kartu pemain atau kartu komputer berdasarkan posisi dan ukuran kartu.
+Kartu pemain atau komputer yang terdeteksi akan ditambahkan ke daftar kartu.
+Pencocokan Nilai dan Jenis Kartu:
+
+Untuk setiap kartu yang terdeteksi, program mencocokkan nilai dan jenis terbaik dengan menggunakan gambar-gambar latihan.
+Menyimpan hasil pencocokan dan perbedaan nilai atau jenis.
+Menampilkan Hasil Pencocokan pada Frame:
+
+Menambahkan titik tengah dan hasil pencocokan ke dalam frame untuk setiap kartu yang terdeteksi.
+Menggambar kontur kartu pada frame.
+Aksi Pemain dan Komputer:
+
+Jika pemain memilih "hit," nilai kartu pemain akan diakumulasi.
+Jika pemain memilih "stand," program akan menentukan aksi selanjutnya berdasarkan algoritma tertentu.
+Proses ini diulang hingga pemain dan komputer melakukan "stand."
+Perbandingan Kartu dan Penentuan Pemenang:
+
+Setelah kedua pihak "stand," nilai kartu pemain dan komputer dibandingkan.
+Pemenang ditentukan berdasarkan nilai kartu terdekat dengan 21 tanpa melebihi.
+Menampilkan Hasil dan Aksi Selanjutnya:
+
+Program menampilkan hasil permainan, apakah pemain menang, komputer menang, atau hasil seri.
+Menampilkan instruksi atau pesan untuk aksi selanjutnya.
+Interaksi Pengguna dan Pengakhiran Program:
+
+Program memberikan instruksi kepada pengguna, seperti menekan spasi untuk menyimpan kartu atau tombol "q" untuk keluar dari permainan.
+Saat pengguna menekan tombol keluar, program melepaskan aliran video dan menutup jendela.
+Seluruh proses ini memastikan bahwa permainan blackjack berlangsung secara interaktif dengan deteksi kartu menggunakan Pengolahan Citra Video.
+
+![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/59b605a6-5a0e-4fba-b09e-57a0b68db7b7)
+![image](https://github.com/marcelaritonang/DetectionCard_OPENCV/assets/62584017/b920d964-4ffd-409e-bfcf-f1b6870b585b)
+
+
+
+
 
